@@ -1,0 +1,256 @@
+/* Import modern premium fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+/* Global settings and resets */
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+    color: #E5E1DD !important; /* Sand text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+}
+
+/* Gradient Hero Titles using Gold and Teal */
+.hero-title {
+    background: linear-gradient(135deg, #A58D66 0%, #407E8C 50%, #C0D5D6 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem !important;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.04em;
+    filter: drop-shadow(0px 2px 10px rgba(8, 58, 79, 0.3));
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: #C0D5D6; /* Aqua secondary text */
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+/* Premium Color-Themed Glassmorphism Cards */
+.glass-card {
+    background: rgba(8, 58, 79, 0.5); /* Navy transparent */
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(165, 141, 102, 0.25); /* Gold thin border */
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 20px;
+}
+
+.glass-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(165, 141, 102, 0.6); /* Glow gold on hover */
+    box-shadow: 0 15px 35px -10px rgba(64, 126, 148, 0.3); /* Teal shadow glow */
+}
+
+/* Scoring KPI Cards matching palette */
+.score-card {
+    border-top: 4px solid #A58D66; /* Gold header line */
+}
+
+.score-card.high {
+    border-top: 4px solid #A58D66; /* Gold accent */
+    background: rgba(8, 58, 79, 0.65);
+}
+
+.score-card.medium {
+    border-top: 4px solid #407E8C; /* Teal accent */
+    background: rgba(8, 58, 79, 0.6);
+}
+
+.score-card.low {
+    border-top: 4px solid #C0D5D6; /* Aqua accent */
+    background: rgba(8, 58, 79, 0.5);
+}
+
+.score-value {
+    font-size: 2.25rem;
+    font-weight: 800;
+    font-family: 'Outfit', sans-serif;
+    color: #E5E1DD;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/* Color themed badges */
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.badge-high {
+    background: rgba(165, 141, 102, 0.2); /* Gold */
+    color: #A58D66;
+    border: 1px solid rgba(165, 141, 102, 0.4);
+}
+
+.badge-medium {
+    background: rgba(64, 126, 148, 0.2); /* Teal */
+    color: #C0D5D6;
+    border: 1px solid rgba(64, 126, 148, 0.4);
+}
+
+.badge-low {
+    background: rgba(192, 213, 214, 0.1); /* Aqua/Grey */
+    color: #C0D5D6;
+    border: 1px solid rgba(192, 213, 214, 0.3);
+}
+
+/* Interactive Recommendation Items */
+.rec-item {
+    background: rgba(5, 37, 51, 0.5); /* Darker Navy/Teal blend */
+    border-radius: 12px;
+    padding: 18px;
+    margin-bottom: 12px;
+    border: 1px solid rgba(64, 126, 148, 0.15); /* Teal accent border */
+    transition: all 0.2s ease;
+}
+
+.rec-item:hover {
+    border-color: rgba(165, 141, 102, 0.4); /* Gold border on hover */
+    transform: translateX(4px); /* Micro sliding interaction */
+    background: rgba(5, 37, 51, 0.7);
+}
+
+.rec-title {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rec-title.high-prio {
+    color: #A58D66; /* Gold */
+}
+
+.rec-title.med-prio {
+    color: #C0D5D6; /* Aqua */
+}
+
+.rec-title.low-prio {
+    color: #407E8C; /* Teal */
+}
+
+.rec-body {
+    font-size: 0.9rem;
+    color: #E5E1DD; /* Sand */
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+.rec-impact {
+    font-size: 0.8rem;
+    color: #C0D5D6; /* Aqua */
+    font-style: italic;
+    background: rgba(8, 58, 79, 0.3);
+    padding: 4px 8px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+/* Sidebar Logo Title styling */
+.sidebar-title {
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(135deg, #A58D66, #407E8C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.5));
+}
+
+/* Interactive Interactive Element Styles */
+.streamlit-button, button[kind="secondary"] {
+    background-color: #407E8C !important; /* Teal button background */
+    color: #E5E1DD !important; /* Sand text */
+    border: 1px solid rgba(165, 141, 102, 0.3) !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    transition: all 0.2s ease !important;
+}
+
+.streamlit-button:hover, button[kind="secondary"]:hover {
+    background-color: #A58D66 !important; /* Gold hover */
+    box-shadow: 0 4px 15px rgba(165, 141, 102, 0.4) !important;
+    transform: scale(1.02);
+}
+
+.nav-button {
+    background-color: #407E8C;
+    color: #E5E1DD;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgba(165, 141, 102, 0.3);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
+
+.nav-button:hover {
+    background-color: #A58D66;
+    color: #E5E1DD;
+    box-shadow: 0 4px 15px rgba(165, 141, 102, 0.4);
+    transform: scale(1.02);
+}
+
+.sidebar-nav-item {
+    display: block;
+    padding: 12px 16px;
+    margin: 8px 0;
+    background-color: rgba(255, 255, 255, 0.03);
+    color: #E5E1DD !important;
+    border-radius: 8px;
+    font-weight: 500;
+    text-decoration: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: all 0.2s ease;
+}
+
+.sidebar-nav-item:hover {
+    background-color: rgba(64, 126, 140, 0.2);
+    color: #A58D66 !important;
+    border: 1px solid rgba(165, 141, 102, 0.3);
+    transform: translateX(4px);
+}
+
+.sidebar-nav-item.active {
+    background-color: rgba(165, 141, 102, 0.15);
+    color: #E5E1DD !important;
+    border: 1px solid #A58D66;
+    font-weight: 600;
+}
+
+/* Inject ContentIQ branding title directly above native sidebar page links */
+[data-testid="stSidebarNav"]::before {
+    content: "ContentIQ";
+    display: block;
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(135deg, #A58D66, #407E8C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.75rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.5));
+}
