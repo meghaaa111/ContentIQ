@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="ContentIQ Logo" width="90" />
+<img src="assets/banner.svg" alt="ContentIQ Logo" width="90" />
 
 # ContentIQ
 
