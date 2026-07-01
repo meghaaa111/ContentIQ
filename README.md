@@ -23,8 +23,8 @@ Evaluate written content before it goes live — quality, readability, SEO, and 
 
 <br/>
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Streamlit_App-407E8C?style=for-the-badge)](https://your-streamlit-link.streamlit.app)
-[![GitHub Repo](https://img.shields.io/badge/📂_GitHub_Repository-083A4F?style=for-the-badge)](https://github.com/username/ContentIQ)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Streamlit_App-407E8C?style=for-the-badge)](https://contentiq-ylea8opy9a5mzdba4esm6d.streamlit.app/)
+[![GitHub Repo](https://img.shields.io/badge/📂_GitHub_Repository-083A4F?style=for-the-badge)](https://github.com/meghaaa111)
 
 </div>
 
