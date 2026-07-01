@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="ContentIQ Logo" width="90" />
-
 # ContentIQ
 
 ### AI-Powered Content Intelligence & Pre-Publishing Audit Platform
