@@ -98,8 +98,6 @@ pythonvenv/
 # Streamlit
 .streamlit/
 
-# ContentIQ specific ignores (Ignore trained models, raw data and log outputs)
-models/*.joblib
-models/*.json
+# ContentIQ specific ignores (Ignore log outputs and generated data)
 contentiq.log
 data/synthetic_content.csv
