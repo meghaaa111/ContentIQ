@@ -168,12 +168,12 @@ streamlit run Home.py
 
 ## 🔮 Future Scope
 
-- 🌐 Browser Extension
-- ⚡ Real-Time Website Auditing
-- 🌍 Multi-language Support
-- 🤖 LLM-Powered Content Suggestions
-- ☁️ Cloud Deployment
-- 🔍 Advanced Explainable AI
+-  Browser Extension
+-  Real-Time Website Auditing
+-  Multi-language Support
+-  LLM-Powered Content Suggestions
+-  Cloud Deployment
+-  Advanced Explainable AI
 
 <br/>
 
